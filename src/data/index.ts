@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/relap.png",
     spareImg: "",
   },
   {
@@ -73,68 +73,68 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Relap Landing Page",
+    des: "Modern mobile responsive landing page made with Next.js, TypeScript, TailwindCSS, Framer Motion.",
+    img: "/relap.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://relap-landing-page.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Gastapp Admin Dashboard",
+    des: "Modern admin dashboard for a gas order and delivery service",
+    img: "/gastapp.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://gastapp-admin-webapp.vercel.app/home",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Interior Plants Decor Landing Page",
+    des: "Modern mobile responsive landing page made with Next.js, TypeScript, TailwindCSS, Framer Motion.",
+    img: "/daunku.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://unclejames-interior-decor.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "React Movie Website",
+    des: "Movie website made with React.js, JavaScript and Styled Components with data coming from The Movie DB",
+    img: "/rmdb.png",
+    iconLists: ["/re.svg", "/js.svg", "/sc.svg"],
+    link: "https://unclejames-movies.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From day one, Ebuka impressed us with his technical skills and problem-solving mindset. He approaches every task with enthusiasm and precision, ensuring the project stays on track. His ability to explain complex concepts in simple terms made working together effortless. A true professional through and through.",
+    name: "Sunny Osaje",
+    title: "CEO of Inspired Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ebuka is hands down one of the best developers I've worked with. He doesn't just execute tasks—he elevates ideas. His attention to detail, combined with a proactive approach and clear communication, made the entire process smooth and stress-free. If you want someone who delivers quality while being an absolute professional, look no further.",
+    name: "Jonathan Ebhota",
+    title: "Supervisor and Lead Developer at Risigner Innovations",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ebuka was an absolute game-changer for our project. His frontend skills are top-notch, but what truly stood out was his ability to think outside the box and find creative solutions to complex challenges. Communication was seamless, and he always kept us in the loop. It felt like having a true partner invested in our success.",
+    name: "Ayobami Ajala",
+    title: "Founder, Conduit",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ebuka doesn't just build websites; he crafts experiences. His keen eye for design, attention to user experience, and thoughtful suggestions made all the difference. What stood out most was his attitude—positive, solution-oriented, and always willing to go the extra mile. It's been an absolute pleasure working with him.",
+    name: "Michael Fred",
+    title: "CTO at Inspired Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I can't recommend Ebuka enough. He not only brought our vision to life with stunning frontend work but also anticipated needs we hadn't even considered. His communication was flawless—always responsive, clear, and collaborative. It's rare to find someone so talented and easy to work with.",
+    name: "Rasheed Oricha",
+    title: "CTO at ZKYTE Technologies",
   },
 ];
 
@@ -174,29 +174,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer",
+    desc: "Developed various web and mobile app solutions ranging from dashboards to command and control systems with various technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Frontend Developer",
+    desc: "Developed modern, user & mobile-friendly web app solutions for clients using Next.js, React.js, TypeScript, JavaScript and TailwindCSS.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Android Mobile App Developer Intern",
+    desc: "Developed multiple Android applications using Kotlin, Java, and Android Studio, including a situation reporting app for real-time data collection",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Junior Embedded Systems Engineer",
+    desc: "Programmed microcontrollers using C/C++ and Python for embedded systems projects, focusing on performance, reliability, and hardware integration.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -206,13 +206,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/unclejames2610",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/chukwuebuka-udeala-989872188/",
   },
 ];
