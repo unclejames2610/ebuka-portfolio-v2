@@ -234,12 +234,12 @@ export function WebGLRendererConfig() {
   const { gl, size } = useThree();
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (typeof window !== "undefined" && gl) {
       gl.setPixelRatio(window.devicePixelRatio);
       gl.setSize(size.width, size.height);
       gl.setClearColor(0xffaaff, 0);
     }
-  }, []);
+  }, [gl, size]);
 
   return null;
 }
