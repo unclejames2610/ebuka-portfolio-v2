@@ -213,4 +213,9 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/chukwuebuka-udeala-989872188/",
   },
+  {
+    id: 3,
+    img: "/cv.svg",
+    link: "/pdfs/resume.pdf",
+  },
 ];
