@@ -73,6 +73,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Conduit",
+    des: "Job application tracker equipped with a mobile responsive landing page, dashboard that shows applications, charts for resume analytic and so much more made with Next.js, TypeScript, TailwindCSS, Framer Motion, ChartsJS.",
+    img: "/conduit.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://www.conduitjobs.io",
+  },
+  {
+    id: 2,
+    title: "Inspired Technologies Website",
+    des: "Modern mobile responsive website for Inspired Technologies Ltd made with Next.js, TypeScript, TailwindCSS, Framer Motion.",
+    img: "/inspired.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://inspiredtechnologies.ng",
+  },
+  {
+    id: 3,
     title: "Relap Landing Page",
     des: "Modern mobile responsive landing page made with Next.js, TypeScript, TailwindCSS, Framer Motion.",
     img: "/relap.png",
@@ -80,7 +96,7 @@ export const projects = [
     link: "https://relap-landing-page.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Gastapp Admin Dashboard",
     des: "Modern admin dashboard for a gas order and delivery service",
     img: "/gastapp.png",
@@ -88,7 +104,7 @@ export const projects = [
     link: "https://gastapp-admin-webapp.vercel.app/home",
   },
   {
-    id: 3,
+    id: 5,
     title: "Interior Plants Decor Landing Page",
     des: "Modern mobile responsive landing page made with Next.js, TypeScript, TailwindCSS, Framer Motion.",
     img: "/daunku.png",
@@ -96,7 +112,7 @@ export const projects = [
     link: "https://unclejames-interior-decor.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "React Movie Website",
     des: "Movie website made with React.js, JavaScript and Styled Components with data coming from The Movie DB",
     img: "/rmdb.png",
